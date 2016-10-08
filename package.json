@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-ro",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the romanian language.",
+  "keywords": [
+    "romanian",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-ro",
+  "bugs": "https://github.com/stopwords-iso/stopwords-ro/issues",
+  "main": "stopwords-ro.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-ro",
+    "test": "npm run build && jsonlint stopwords-ro.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}

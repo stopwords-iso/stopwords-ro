@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-ro",
+  "description": "The most comprehensive collection of stopwords for the romanian language.",
+  "keywords": [
+    "romanian",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-ro",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-ro.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}
