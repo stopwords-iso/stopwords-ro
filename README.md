@@ -10,8 +10,8 @@ A [multiple language](https://github.com/stopwords-iso/stopwords-iso) collection
 ### Usage
 
 The collection comes in a
-[JSON format](https://raw.githubusercontent.com/stopwords-iso/stopwords-iso/master/stopwords-ro.json) and a
-[text format](https://raw.githubusercontent.com/stopwords-iso/stopwords-iso/master/stopwords-ro.txt).
+[JSON format](https://raw.githubusercontent.com/stopwords-iso/stopwords-ro/master/stopwords-ro.json) and a
+[text format](https://raw.githubusercontent.com/stopwords-iso/stopwords-ro/master/stopwords-ro.txt).
 You are free to use this collection any way you like.
 It is only currently published on [npm](https://www.npmjs.com/stopwords-ro) and [bower](https://bower.io).
 
